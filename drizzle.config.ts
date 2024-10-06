@@ -1,11 +1,16 @@
 import { Config } from 'drizzle-kit';
+import * as dotenv from 'dotenv';
 import * as path from 'path';
 
+dotenv.config();  // Load environment variables
+
 export default {
-  schema: './apps/api/src/db/schema.ts', // Path to your schema file
-  out: './drizzle', // Directory to output migration files
-  dialect: 'sqlite', // Specify SQLite as the database dialect
+  schema: './apps/api/src/db/schema.ts',  // Updated path to your schema file
+  out: './drizzle',
+  dialect: 'sqlite',
   dbCredentials: {
-    url: 'sky-style.db', // Path to your SQLite database file
+    url: process.env.DATABASE_URL!,
+    authToken: process.env.DATABASE_AUTH_TOKEN,
+
   },
 } satisfies Config;

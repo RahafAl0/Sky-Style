@@ -8,6 +8,41 @@
       "when": 1726576195412,
       "tag": "0000_milky_gorgon",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1726587398005,
+      "tag": "0001_woozy_korg",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1726588940241,
+      "tag": "0002_superb_molly_hayes",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1726663665566,
+      "tag": "0003_cynical_edwin_jarvis",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1726680086385,
+      "tag": "0004_broad_madripoor",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1727795633313,
+      "tag": "0005_eager_maximus",
+      "breakpoints": true
     }
   ]
 }
